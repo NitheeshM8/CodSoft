@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding:0;
+    line-height: 0.5;
+    background:white;
+    font-family: sans-serif;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231219/pngtree-green-water-and-green-mountains-natural-environment-photo-image_15526887.png);
+    background-repeat: no-repeat;
+    background-size: 99.9%;
+}
+.nith
+{
+ margin-top: -0.5%;
+ margin-left: 26%;
+ border: 5px solid rgb(146, 146, 146);
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ padding-top: 78px;
+ background-color:lightgrey;
+}
+.calci{
+    border: 5px solid rgb(146, 146, 146);
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    position: absolute;
+    top:60%;
+    left:67%;
+    transition:0.25px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:lightgrey;
+    border-radius: 15px;
+}
+#zero{
+
+height: 55;
+width: 116;
+font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#display{
+    
+    border:none;
+    background: white;
+    border-radius: 10px;
+    width: 245;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    border:2px solid white(5, 218, 255, 0.726);
+    color: black;
+
+
+
+}
+.button{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-size: 20;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    border:0;
+    border-radius: 10px;
+    margin: 1.5;
+    transition:0.25px;
+    
+    
+}
+
+h1{
+    margin-top: 300px;
+    margin-left: 100px;
+    font-family: sans-serif;
+
+    font-size:50;
+   
+    text-decoration: underline;
+
+color: white;
+text-transform: uppercase;
+font-weight: 700;}
+
+h2{
+
+    color: white;
+    margin-top: -1px;
+    font-family: sans-serif;
+    margin-left: 438px;
+}
+.operator{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-size: 20;
+    text-align: center;
+    color: black;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    border:0;
+    border-radius: 10px;
+    margin: 1.5;
+    transition:0.25px;
+    cursor:pointer;
+    
+    
+    
+}
+
+
+.operator:hover{
+    background:seagreen;
+}
